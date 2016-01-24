@@ -89,7 +89,7 @@
       {% if CC_LICENSE %}
         {% include "partial/cc_license.html" %}
       {% else %}
-        <p>&copy; <a class="h-card" rel="me" href="{{ SITEURL }}"><span class="p-name">{{ AUTHOR }}</span></a> {{ COPYRIGHT_YEAR }}</p>
+        <p class="h-card">&copy; <a class="u-url" rel="me" href="{{ SITEURL }}"><span class="p-name">{{ AUTHOR }}</span></a> {{ COPYRIGHT_YEAR }}</p>
         {% include "partial/flex.html" %}
         {% if STATUSCAKE %}
           {% include "partial/statuscake.html" %}
